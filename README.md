@@ -1,3 +1,7 @@
+Test Credentials -> email : john@gmail.com pass : 123456789
+
+live link [Click here](https://dobby-gallery-app.vercel.app/)
+
 STEPS TO RUN THIS APPLICATION ON YOUR LOCAL MACHINE
 
 1. Open your terminal.
