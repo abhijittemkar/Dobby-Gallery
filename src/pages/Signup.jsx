@@ -7,7 +7,7 @@ import AuthForm from "../components/AuthForm";
 function Signup() {
   const navigate = useNavigate();
   const BASE_URL = process.env.REACT_APP_BASE_URL;
-
+  console.log("BASE URL : ", BASE_URL);
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -45,14 +45,12 @@ function Signup() {
   };
   return (
     <div className="mx-auto my-auto">
-
-      <AuthForm 
+      <AuthForm
         handleOnChange={handleOnChange}
         handleOnSubmit={handleOnSubmit}
         formData={formData}
         btnTxt="Register"
       />
-
     </div>
   );
 }
